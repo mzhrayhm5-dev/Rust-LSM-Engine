@@ -1,0 +1,10 @@
+[package]
+name = "rust-lsm-engine"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1"
+crossbeam-skiplist = "0.1"
+crossbeam = "0.8"
+memmap2 = "0.9"
